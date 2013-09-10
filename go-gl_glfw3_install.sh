@@ -3,11 +3,6 @@
 #[window->ns.object setLevel:NSFloatingWindowLevel];
 
 
-mkdir result
-cd result
-cmake .. -DBUILD_SHARED_LIBS=ON
-make
-# Or
 cmake . -DBUILD_SHARED_LIBS=ON
 make
 
