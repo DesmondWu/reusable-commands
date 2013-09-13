@@ -17,3 +17,11 @@ rbenv global 2.0.0-p247
 
 gem install bundle rails redis pry pry-doc
 rbenv rehash
+
+---
+
+http://learnxinyminutes.com/docs/ruby/
+http://ruby-doc.org/stdlib-2.0/libdoc/net/http/rdoc/Net/HTTP.html
+http://www.railstips.org/blog/archives/2009/05/11/class-and-instance-methods-in-ruby/
+http://en.wikibooks.org/wiki/Ruby_Programming
+https://github.com/bbatsov/ruby-style-guide
