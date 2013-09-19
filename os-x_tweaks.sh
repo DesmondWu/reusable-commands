@@ -7,4 +7,4 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 ~/Library/Caches/com.apple.dt.Xcode/
 
 # Port Limits
-sudo sysctl -w net.inet.tcp.msl=1000
+sudo sysctl -w net.inet.tcp.msl=1000 # Reduce TIME_WAIT from 15 seconds to 1 second
