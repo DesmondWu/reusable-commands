@@ -10,6 +10,7 @@ make
 mkdir -p /usr/local/include/GLFW/
 cp ./include/GLFW/glfw3.h /usr/local/include/GLFW/
 cp -a ./src/libglfw*.dylib /usr/local/lib/
+mv /usr/local/lib/libglfw.dylib /usr/local/lib/libglfw3.dylib
 
 
-go get -u "github.com/go-gl/glfw3"
+CC=clang go get -u "github.com/go-gl/glfw3"
