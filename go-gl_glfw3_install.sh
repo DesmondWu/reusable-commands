@@ -14,3 +14,14 @@ mv /usr/local/lib/libglfw.dylib /usr/local/lib/libglfw3.dylib
 
 
 CC=clang go get -u "github.com/go-gl/glfw3"
+
+
+# Go 1.2
+cmake .
+make
+
+mkdir -p /usr/local/include/GLFW/
+cp ./include/GLFW/glfw3.h /usr/local/include/GLFW/
+cp ./src/libglfw3.a /usr/local/lib/
+
+go get "github.com/go-gl/glfw3"
