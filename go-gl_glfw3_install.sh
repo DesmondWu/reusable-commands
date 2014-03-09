@@ -1,3 +1,8 @@
+# GLFW
+git clone https://github.com/glfw/glfw.git
+cd ./glfw
+git checkout latest
+
 # Optional patch
 #//SetFrontProcess(&psn);
 #[window->ns.object setLevel:NSFloatingWindowLevel];
